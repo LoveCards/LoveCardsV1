@@ -1,8 +1,8 @@
 /*
-                    弹窗提示
-                    $_GET['notifications'] 状态
-                    参数1，2，3/success,warning,danger
-                    $_GET['notifications_content'] 内容
+	弹窗提示
+	$_GET['notifications'] 状态
+	参数1，2，3/success,warning,danger
+	$_GET['notifications_content'] 内容
 */
 
 /*
@@ -129,9 +129,11 @@ index.php?state=server
 -优化邮局页面sql注入防护
 -优化安装后删除install目录提示方式
 
+1.0.4
+源码全部开源到Github
+更改授权策略为永久免费
 
-￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥￥
-注意更新时修改
+########
+版本号配置
 index.php
 config/sqlconfig.php
-内的版本号
