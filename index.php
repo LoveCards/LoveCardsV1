@@ -1,4 +1,12 @@
 <?php
+/*
+ * @Description: 
+ * @Autor: 吃纸怪
+ * @QQ: 2903074366
+ * @Email: 2903074366@qq.com
+ * @QQgroup: 801235342
+ * @Github: https://github.com/zhiguai
+ */
 if ($_GET['state'] == "server") {
     @header("content-type:application/json; charset=utf-8");
     @header('Access-Control-Allow-Origin: *');
@@ -17,7 +25,7 @@ if ($_GET['state'] == "server") {
 	$reszan='select * from zan';//赞
 	$data['rowzan']=mysqli_num_rows(Execute($conn,$reszan));
     $data['version'] = SYSTEM_VERSION;
-    $data['version_r'] = "1.0.6/1.0.3.4";//详细版本号
+    $data['version_r'] = "1.0.4";//详细版本号
     $data['state'] = "200";
     echo json_encode($data);
     exit;
