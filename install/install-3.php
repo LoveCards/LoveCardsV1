@@ -87,7 +87,7 @@ if (isset($_POST['submit'])) {
 				  	<a href="#example1-tab1" class="mdui-ripple" disabled>程序介绍</a>
 				  	<a href="#example1-tab2" class="mdui-ripple" disabled>数据库配置</a>
 				  	<a href="#example1-tab3" class="mdui-ripple" disabled>管理员配置</a>
-				  	<a href="#example1-tab4" class="mdui-ripple" >获取授权</a>
+				  	<a href="#example1-tab4" class="mdui-ripple" >绑定邮箱</a>
                     <a href="#example1-tab5" class="mdui-ripple" disabled>安装完成</a>
 				</div>
 

@@ -34,7 +34,7 @@ STR;
                                 </ul>
                             </p>
                             <blockquote>如果您安装并使用了该程序，将默认您阅读并同意该条款<a href="http://fatda.cn/index.php/archives/8/">《Fatda用户条款》</a></blockquote>
-                            <blockquote>Made by 吃纸怪 ©2021 FatDa. All rights reserved. </blockquote>
+                            <blockquote>Made by 吃纸怪 ©<?=date("Y")?> FatDa. All rights reserved. </blockquote>
                             <blockquote>最终解释权归FatDa所有</blockquote>
                         </div>
                         <div class="mdui-divider mdui-m-t-4 mdui-m-b-2"></div>

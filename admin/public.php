@@ -18,7 +18,7 @@
     error_reporting(E_ALL & ~E_NOTICE);
     //引入基本配置
     require_once "../config/systemConfig.php";
-    //require_once "../public/serverInc.php";
+    require_once "../public/serverInc.php";
     
     //ip获取函数
     function GetClientIp()
