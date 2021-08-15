@@ -18,7 +18,7 @@
     //引入基本配置
     require_once "../config/systemConfig.php";
     //引入qq跳转
-    if (!is_dir("./qqtz.php")) {
+    if (file_exists("./qqtz.php")) {
         require_once "./qqtz.php";
     }
     

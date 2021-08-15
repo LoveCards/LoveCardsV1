@@ -269,7 +269,8 @@
         
         //判断请求是否失败
         if(!$file_content){
-            $contents = "授权服务器连接失败！";
+            echo '<script>window.location.href="email.php?notifications=2&notifications_content=邮件服务器连接失败！"</script>';
+            exit;
         }else{
             $arr = json_decode($file_content,true);//对json格式的字符串进行编码，同时进行数组化
             if($arr['code'] == "501"){
