@@ -25,7 +25,7 @@ if ($_GET['state'] == "server") {
 	$reszan='select * from zan';//赞
 	$data['rowzan']=mysqli_num_rows(Execute($conn,$reszan));
     $data['version'] = SYSTEM_VERSION;
-    $data['version_r'] = "1.0.4";//详细版本号
+    $data['version_r'] = "1.0.4.2";//详细版本号
     $data['state'] = "200";
     echo json_encode($data);
     exit;

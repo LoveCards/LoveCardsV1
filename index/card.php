@@ -5,7 +5,7 @@
     if (empty($_GET['id'])) {
         echo '<script>window.location.href="wall.php"</script>';
     }
-    $_GET['id'] = addslashes($_GET['id']);
+    $_GET['id'] = addslashes(fliter_sql($_GET['id']));
     $card_result = Execute($conn, "select * from card where id ={$_GET['id']}");//获得表白卡内容
     if (mysqli_num_rows($card_result) <= 0) {
         echo "<script>window.location.href=\"wall.php?notifications=2&notifications_content=该表白卡不存在\"</script>";
