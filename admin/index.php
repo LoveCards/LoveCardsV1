@@ -47,7 +47,7 @@ if($admin_data['power'] == "1"){
 					<p class="text-muted"><strong>最新版本 :</strong>
 						<span class="ml-2"><?php echo $arr['site_version']; ?>|TIME:<?php echo $arr['site_time']; ?></span>
 					</p>
-					<a href="//fatda.cn"><button type="submit" class="foot-right btn btn-primary">使用手册</button></a>
+					<a href="https://github.com/zhiguai/CZ-LoveCards/wiki"><button type="submit" class="foot-right btn btn-primary">使用手册</button></a>
 				</div>
 <?php
 } else {
