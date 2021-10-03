@@ -1,7 +1,31 @@
 <?php 
 
 $sql_time = date('Y-m-d h:i:s', time());
-
+//sql注入过滤
+function fliter_sql($str) {
+	$str = str_replace("and","",$str);
+	$str = str_replace("execute","",$str);
+	$str = str_replace("update","",$str);
+	$str = str_replace("count","",$str);
+	$str = str_replace("chr","",$str);
+	$str = str_replace("mid","",$str);
+	$str = str_replace("master","",$str);
+	$str = str_replace("truncate","",$str);
+	$str = str_replace("char","",$str);
+	$str = str_replace("declare","",$str);
+	$str = str_replace("select","",$str);
+	$str = str_replace("create","",$str);
+	$str = str_replace("delete","",$str);
+	$str = str_replace("insert","",$str);
+	$str = str_replace("'","",$str);
+	$str = str_replace('"',"",$str);
+	$str = str_replace(" ","",$str);
+	$str = str_replace("or","",$str);
+	$str = str_replace("=","",$str);
+	$str = str_replace("%20","",$str);
+	//echo $str;
+	return $str;
+}
 //数据库连接
 function Connect($host=DB_HOST,$user=DB_USER,$password=DB_PASSWORD,$database=DB_DATABASE,$port=DB_PORT){
 	$link=@mysqli_connect($host, $user, $password, $database, $port);
