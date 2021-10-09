@@ -1,11 +1,13 @@
 # CZ-LoveCards
 一个轻量但又功能全面的表白墙
+目前停止维护，由于种种原因，如果star超过50再更新。
 
-> 最新版本：[1.0.4][1]<br>
+> 最新基础版本：[1.0.4][1]<br>
 > 程序介绍：[详情][2]<br>
 > 安装环境：PHP7.X-Mysql<br>
-> 使用说明：<a href="//fatda.cn">fatda.cn</a><br>
+> 使用说明：<a href="https://github.com/zhiguai/CZ-LoveCards/wiki">WIKI</a><br>
 > 务必注意！！！安装完成后删除install文件夹<br>
+
 ## 相关
 > QQ交流群:<a href="https://jq.qq.com/?_wv=1027&k=QTRjFYyB">801235342</a><br>
 > 作者QQ:2903074366<br>
