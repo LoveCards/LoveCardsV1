@@ -1,20 +1,30 @@
 # CZ-LoveCards
-一个轻量但又功能全面的表白墙
-目前停止维护，由于种种原因，如果star超过50再更新。
+项目主页：<a href="https://lovecards.cn">LoveCards.cn</a><br>
+简介：一个简约而不简单的表白墙项目<br>
+作者留言：😭由于作者个人原因，暂时没有办法对该项目进行维护，不过项目Star到达50以后🐱‍👤，后续我会抽出时间继续更新维护该项目。
 
-> 最新基础版本：[1.0.4][1]<br>
-> 程序介绍：[详情][2]<br>
-> 安装环境：PHP7.X-Mysql<br>
-> 使用说明：<a href="https://github.com/zhiguai/CZ-LoveCards/wiki">WIKI</a><br>
-> 务必注意！！！安装完成后删除install文件夹<br>
+> ![基础版本](https://img.shields.io/badge/version-1.0.4-orange)<br>
+> ![安装环境](https://img.shields.io/badge/environment-PHP7.X%2BMysql-yellow)<br>
+> 使用帮助：<a href="https://github.com/zhiguai/CZ-LoveCards/wiki">WIKI</a><br>
+> 注意❗：安装完成后删除install文件夹<br>
 
 ## 相关
 > QQ交流群:<a href="https://jq.qq.com/?_wv=1027&k=QTRjFYyB">801235342</a><br>
 > 作者QQ:2903074366<br>
 > 作者博客:<a href="//chizg.cn">chizg.cn</a><br>
-> 全版本下载:<a href="//fatda.cn/index.php/archives/59/">fatda.cn</a><br>
+
+# 部分功能演示：
+### 1.新增粉色配色
+![首页展示.png][9]
+### 2.新增邮件功能
+![邮件功能展示.png][10]
+### 3.卡片ID显示&快捷邮寄
+![ID显示展示.png][11]
+![快捷邮寄.png][12]
+*（点击卡片ID即可跳转至邮寄界面并自动填写卡片ID）*
 
 # 更新日志
+*（后加“//”表示内部版本号，不带则表示发布版本号）*
 ## 1.0.0/2.10
 - 完成原版基础全部功能
 - 去掉部分鸡肋共功能
@@ -157,28 +167,7 @@
 ## 1.0.1/5.2
 - 修复发送图片显示问题
 
----
-
-# 部分功能演示：
-## 1.新增粉色配色
-![首页展示.png][9]
-## 2.新增邮件功能
-![邮件功能展示.png][10]
-## 3.卡片ID显示&快捷邮寄
-![ID显示展示.png][11]
-
-*（点击卡片ID即可跳转至邮寄界面并自动填写卡片ID）*
-![快捷邮寄.png][12]
-
----
-
-#[测试站点:test.fatda.cn][13]
-
-
-  [1]: https://fatda.cn/index.php/archives/55/
-  [2]: http://fatda.cn/index.php/archives/3/
   [9]: https://fatda.cn/usr/uploads/2021/05/1945201560.png
   [10]: https://fatda.cn/usr/uploads/2021/05/1272292579.png
   [11]: https://fatda.cn/usr/uploads/2021/05/3249907309.png
   [12]: https://fatda.cn/usr/uploads/2021/05/3340666628.png
-  [13]: https://test.fatda.cn/index/index.php##
