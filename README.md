@@ -2,7 +2,8 @@
 项目主页：<a href="https://lovecards.cn">LoveCards.cn</a><br>
 简介：一个简约而不简单的表白墙项目<br>
 作者留言：~~😭由于作者个人原因，暂时没有办法对该项目进行维护，不过项目Star到达50以后🐱‍👤，后续我会抽出时间继续更新维护该项目。~~<br>
-已经在搞了在搞了，因为换用技术栈的原因，作者也是边学习边开发，进度可能较为缓慢，大家可以加入交流群了解进度提出建议或创意。
+~~已经在搞了在搞了，因为换用技术栈的原因，作者也是边学习边开发，进度可能较为缓慢，大家可以加入交流群了解进度提出建议或创意。~~  
+<strong>LoveCards V2</strong>好了好了<a src="https://github.com/zhiguai/LoveCards">https://github.com/zhiguai/LoveCards</a> 来瞅瞅❗❗
 
 > ![基础版本](https://img.shields.io/badge/version-1.0.4-orange)<br>
 > ![安装环境](https://img.shields.io/badge/environment-PHP7.X%2BMysql-yellow)<br>
