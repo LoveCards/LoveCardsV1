@@ -14,13 +14,6 @@
 #### 【腾讯云】  
 云服务器、云数据库、COS、CDN、短信等云产品特惠热卖中
 [前往查看](https://cloud.tencent.com/act/cps/redirect?redirect=2446&cps_key=38f639d8e78eba15eccbb10745981353&from=console)
-#### 【快猫云】  
-快猫云高防云服务器基于高性能KVM架构虚拟化，并提供单机50G-1TB防御清晰能力，能有效抵抗DDos和CC等网络攻击
-[前往查看](https://www.kmyvps.com/aff/SRGOKALJ)
-#### 【丢忆云】  
-丢忆云资讯公告、产品发布，汇聚前沿的云计算技术
-[前往查看](https://www.diuyi.cn/aff/POMVSEPU)
-
 
 ## 相关
 > QQ交流群:<a href="https://jq.qq.com/?_wv=1027&k=QTRjFYyB">801235342</a><br>
